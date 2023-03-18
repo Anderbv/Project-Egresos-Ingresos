@@ -7,7 +7,7 @@
 }
 
 body {
-  background: var(--mainWhite);
+  background: #fff0e5;
   color: var(--mainDark);
 }
 .budget-feedback,
@@ -16,25 +16,31 @@ body {
 }
 
 .budget-form {
-  border: 0.15rem solid var(--mainGreen);
+  background-color: #ffffff;
+  border: 0.15rem solid #707382;
   padding: 1rem;
   border-radius: 0.25rem;
 }
 .expense-form {
-  border: 0.15rem solid var(--mainRed);
+  background-color: #ffffff;
+  border: 0.15rem solid #707382;
   padding: 1rem;
   border-radius: 0.25rem;
 }
 .budget-submit {
-  background: transparent;
-  border: 0.1rem solid var(--mainGreen);
-  color: var(--mainGreen);
+  background: #3a10e5;
+  border: 0.1rem solid #3a10e5;
+  color: #ffffff;
+  font-weight: bold;
 }
 .expense-submit {
-  background: transparent;
-  border: 0.1rem solid var(--mainRed);
-  color: var(--mainRed);
+  background: #3a10e5;
+  font-weight: bold;
+  border: 0.1rem solid #3a10e5;
+  color: #ffffff;
 }
+
+
 .expense-submit:hover {
   background: var(--mainRed);
   color: var(--mainWhite);
@@ -45,10 +51,30 @@ body {
 }
 
 .budget-input {
-  border: 0.05rem solid var(--mainGreen) !important;
+  background-color: #fff0e5;
+  border: 0.05rem solid #3c3c3c !important;
 }
+
+.text-uppercase {
+  font-weight: bolder;
+}
+
+.expense-title {
+  color: black !important;
+}
+
+.expense-amount {
+  font-weight: medium;
+}
+
+.list-item {
+  font-weight: bold;
+}
+
 .expense-input {
-  border: 0.05rem solid var(--mainRed) !important;
+  background-color: #fff0e5;
+  
+  border: 0.05rem solid #3c3c3c !important;
 }
 .expense-amount,
 .expense-title {
